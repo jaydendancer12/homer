@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/wflogs/
+*.log
+node_modules/
+.DS_Store
+EOF
